@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+      http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping>
+        <class-a>com.ncr.model.Source</class-a>
+        <class-b>com.ncr.model.Destination</class-b>
+        <field>
+            <a>name</a>
+            <b>firstName</b>
+        </field>
+        <field>
+            <a>surname</a>
+            <b>lastName</b>
+        </field>
+        <field>
+            <a>age</a>
+            <b>ageLived</b>
+        </field>
+    </mapping>
+</mappings>
