@@ -1,5 +1,6 @@
 package com.ncr.model;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import lombok.AllArgsConstructor;
@@ -7,17 +8,16 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
+ *
  * @author kartik
  */
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Order {
-    private String id;
-    private int items;
-    private double cost;
-    private String siteName;
-    private Status status;
-    private List<String> itemNames;
+@Data
+public class Manifest {
+    private String currency;
 
+    private String type;
+
+    private List<Integer> items = new ArrayList<>();
 }

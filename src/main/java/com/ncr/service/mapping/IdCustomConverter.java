@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.dozer.CustomConverter;
 
 /**
- * @author km185223
+ * @author kartik
  */
 public class IdCustomConverter implements CustomConverter {
     final static String DELIMITER="!";

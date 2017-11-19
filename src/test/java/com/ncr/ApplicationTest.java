@@ -14,7 +14,7 @@ import com.ncr.model.PersonWithAnnotation;
 import com.ncr.model.Source;
 
 /**
- * @author km185223
+ * @author kartik
  */
 public class ApplicationTest {
     DozerBeanMapper mapper;

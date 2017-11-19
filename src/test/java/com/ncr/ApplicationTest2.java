@@ -17,7 +17,7 @@ import com.ncr.model.StatusPrime;
 import com.ncr.service.mapping.MappingBuilder;
 
 /**
- * @author km185223
+ * @author kartik
  */
 public class ApplicationTest2 {
     final DozerBeanMapper mapper = new DozerBeanMapper();

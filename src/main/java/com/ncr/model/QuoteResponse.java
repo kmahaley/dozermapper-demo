@@ -5,12 +5,15 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
+ *
  * @author kartik
  */
-@Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class PersonBasicData {
-    private String name;
-    private int age;
+@Data
+public class QuoteResponse {
+    private String id;
+    private int fee;
+    private String requestedAt;
+    private String partnerName;
 }

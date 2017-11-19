@@ -1,16 +1,16 @@
-package com.ncr.model;
+package com.ncr.model.nestedmapping;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
+ *
  * @author kartik
  */
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class PersonBasicData {
-    private String name;
-    private int age;
+@AllArgsConstructor
+public class IDClass {
+    private String id;
 }

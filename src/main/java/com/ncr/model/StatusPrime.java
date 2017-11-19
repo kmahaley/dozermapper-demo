@@ -1,7 +1,7 @@
 package com.ncr.model;
 
 /**
- * @author km185223
+ * @author kartik
  */
 public enum StatusPrime {
     SUBMITTED,

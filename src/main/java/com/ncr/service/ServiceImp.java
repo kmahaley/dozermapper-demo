@@ -15,10 +15,10 @@ import com.ncr.model.PersonIdData;
 import com.ncr.model.PersonViewData;
 
 /**
- * @author km185223
+ * @author kartik
  */
 @RestController
-@RequestMapping("/service")
+@RequestMapping("/services")
 public class ServiceImp {
 
     DozerBeanMapper mapper= new DozerBeanMapper();

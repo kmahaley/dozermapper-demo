@@ -11,14 +11,14 @@ import org.springframework.context.annotation.Configuration;
 import com.ncr.service.mapping.MappingBuilder;
 
 /**
- * @author km185223
+ * @author kartik
  */
 @Configuration
 public class DozerConfig {
 
     @Bean
-    public Mapper DozerMapper(MappingBuilder mappingBuilder){
-        List<String> mappingFiles=new ArrayList<String>();
+    public Mapper DozerMapper(MappingBuilder mappingBuilder) {
+        List<String> mappingFiles = new ArrayList<String>();
         final DozerBeanMapper mapper = new DozerBeanMapper();
         mapper.setMappingFiles(mappingFiles);
         mapper.addMapping(mappingBuilder);
@@ -27,5 +27,7 @@ public class DozerConfig {
     }
 
     @Bean
-    public MappingBuilder mappingBuilder(){return new MappingBuilder();}
+    public MappingBuilder mappingBuilder() {
+        return new MappingBuilder();
+    }
 }

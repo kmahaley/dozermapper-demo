@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import org.dozer.Mapping;
 
 /**
- * @author km185223
+ * @author kartik
  */
 @Data
 @AllArgsConstructor
